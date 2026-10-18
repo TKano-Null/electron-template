@@ -1,0 +1,33 @@
+# 依存関係
+node_modules/
+
+# ビルド成果物（electron-vite / electron-builder）
+out/
+dist/
+release/
+
+# テスト・カバレッジ
+coverage/
+test-results/
+playwright-report/
+
+# ログ
+*.log
+npm-debug.log*
+
+# 環境変数
+.env
+.env.*
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Claude Code 個人設定
+.claude/settings.local.json
+
+# 実装ステップ外の動作履歴
+history/general/
